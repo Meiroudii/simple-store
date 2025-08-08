@@ -8,3 +8,20 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background: hsl(205, 20%, 10%);
+  max-width: 1024px;
+}
+
+body {
+  background: hsl(203, 10%, 5%);
+  color: hsl(200, 10%, 80%);
+  font-size: 2rem;
+}
