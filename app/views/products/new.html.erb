@@ -1,0 +1,14 @@
+<h1>New Product</h1>
+
+<%= form_with model: @product do |form| %>
+  <fieldset>
+    <legend>Product Information</legend>
+  <div>
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+  </fieldset>
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
